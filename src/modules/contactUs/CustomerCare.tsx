@@ -1,5 +1,5 @@
 import React from "react";
-import { contactData } from "../../data/contactData";
+import { CustomerCareData } from "../../data/CustomerCareData";
 import CustomerCareCard from "../../components/CustomerCareCard";
 import { CONTACT_DESC, CONTACT_TITLE } from "../../utils/constants";
 
@@ -11,11 +11,11 @@ const CustomerCare: React.FC = () => {
         <p>{CONTACT_DESC}</p>
       </div>
       <div className="grid grid-cols-2 lg:grid-cols-4 m-4 lg:px-20 py-10 gap-10 border border-black rounded-xl">
-        {contactData.map((item, index) => (
+        {CustomerCareData.map((item, index) => (
           <CustomerCareCard
             key={item.id}
             contactItem={item}
-            isLast={index === contactData.length - 1}
+            isLast={index === CustomerCareData.length - 1}
           />
         ))}
       </div>
@@ -23,4 +23,4 @@ const CustomerCare: React.FC = () => {
   );
 };
 
-export default CustomerCare
+export default CustomerCare;

@@ -1,12 +1,8 @@
 import { CALL_ICON, CHAT_ICON, EMAIL_ICON, MESSAGE_ICON } from "../utils/constants";
+import { CustomerCare_type } from "../utils/type";
 
-export type ContactData = {
-  id: number;
-  icon: any;
-  title: string;
-  description: string;
-};
-export const contactData: ContactData[] = [
+
+export const CustomerCareData: CustomerCare_type[] = [
   {
     id: 1,
     icon: CALL_ICON,

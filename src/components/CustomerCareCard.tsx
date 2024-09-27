@@ -1,5 +1,5 @@
 import React from 'react'
-import { ContactData } from '../data/contactData'
+import { ContactData } from '../data/CustomerCareData'
 
 type CustomerCareCardProp={
     contactItem:ContactData,
