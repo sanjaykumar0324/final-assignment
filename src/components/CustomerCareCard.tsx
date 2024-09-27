@@ -1,11 +1,11 @@
 import React from 'react'
 import { ContactData } from '../data/contactData'
 
-type ContactItemProp={
+type CustomerCareCardProp={
     contactItem:ContactData,
     isLast?: boolean;
 }
-const ContactItem :React.FC<ContactItemProp>= ({contactItem,isLast}) => {
+const CustomerCareCard :React.FC<CustomerCareCardProp>= ({contactItem,isLast}) => {
   return (
     <div className={`border border-l-0 border-t-0 border-b-0 ${isLast ? 'border-r-0' : 'border-r-gray-400'}`}>
         <div className='flex flex-col gap-4 items-center p-4'> 
@@ -19,4 +19,4 @@ const ContactItem :React.FC<ContactItemProp>= ({contactItem,isLast}) => {
   )
 }
 
-export default ContactItem
+export default CustomerCareCard

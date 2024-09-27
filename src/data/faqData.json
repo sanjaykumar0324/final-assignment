@@ -1,0 +1,14 @@
+[
+    {
+        "question": "What is React?",
+        "answer": "React is a JavaScript library for building user interfaces."
+    },
+    {
+        "question": "How does React work?",
+        "answer": "React works by using a virtual DOM to optimize rendering."
+    },
+    {
+        "question": "What are hooks in React?",
+        "answer": "Hooks are functions that let you use state and other React features without writing a class."
+    }
+]

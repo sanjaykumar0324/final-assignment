@@ -1,11 +1,11 @@
 import React from 'react'
 import Layout from './layout/Layout'
-import Contact from './modules/contactUs/Contact'
+import ContactUs from './modules/contactUs'
 
 const App :React.FC= () => {
   return (
     <Layout>
-      <Contact/>
+      <ContactUs/>
     </Layout>
     
   )
