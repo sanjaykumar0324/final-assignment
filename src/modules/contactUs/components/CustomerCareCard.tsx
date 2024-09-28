@@ -1,5 +1,5 @@
 import React from 'react'
-import { CustomerCare_type } from '../utils/type';
+import { CustomerCare_type } from '../../../utils/type';
 
 type CustomerCareCardProp={
     customerCareItem:CustomerCare_type,
