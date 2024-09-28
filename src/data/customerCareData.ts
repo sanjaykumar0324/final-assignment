@@ -2,7 +2,7 @@ import { CALL_ICON, CHAT_ICON, EMAIL_ICON, MESSAGE_ICON } from "../utils/constan
 import { CustomerCare_type } from "../utils/type";
 
 
-export const CustomerCareData: CustomerCare_type[] = [
+export const customerCareData: CustomerCare_type[] = [
   {
     id: 1,
     icon: CALL_ICON,

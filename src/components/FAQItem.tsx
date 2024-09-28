@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FAQ_type } from "../utils/type";
+import { FAQ_TOGGLE_DOWN_ICON, FAQ_TOGGLE_UP_ICON } from "../utils/constants";
 
 const FAQItem: React.FC<FAQ_type> = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -9,14 +10,12 @@ const FAQItem: React.FC<FAQ_type> = ({ question, answer }) => {
   };
 
   return (
-    <div className="faq-item mb-4">
-      <h3
-        onClick={toggleOpen}
-        className="cursor-pointer bg-gray-200 p-4 rounded-lg transition duration-200 hover:bg-gray-300"
-      >
-        {question}
-      </h3>
-      {isOpen && <p className="mt-2 p-4 bg-gray-100 rounded-lg">{answer}</p>}
+    <div className=" ">
+      <div className="flex justify-between" onClick={toggleOpen}>
+        <h3 className="cursor-pointer bg-[#FFFFFF] p-6">{question}</h3>
+        <button className="">{isOpen ? <FAQ_TOGGLE_UP_ICON/>: <FAQ_TOGGLE_DOWN_ICON/>}</button>
+      </div>
+      {isOpen && <p className=" pt-4 pb-6 px-6 bg-[#FFFFFF] ">{answer}</p>}
     </div>
   );
 };

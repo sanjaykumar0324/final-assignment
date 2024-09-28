@@ -1,3 +1,4 @@
+
 export type FAQ_type = {
     question: string;
     answer: string;
@@ -8,3 +9,11 @@ export type CustomerCare_type = {
     title: string;
     description: string;
   };
+
+export type HelpDesk_type={
+    id: number,
+    icon: string,
+    title : string,
+    desc  : string
+
+}

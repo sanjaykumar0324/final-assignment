@@ -1,14 +1,16 @@
-import React from 'react'
-import CustomerCare from './CustomerCare'
-import FAQ from './FAQ'
+import React from "react";
+import CustomerCare from "./CustomerCare";
+import FAQ from "./FAQ";
+import HelpDesk from "./HelpDesk";
 
-const ContactUs :React.FC= () => {
+const ContactUs: React.FC = () => {
   return (
-    <div>
-        <FAQ/>
-        <CustomerCare/>
-    </div>
-  )
-}
+    <>
+      <HelpDesk />
+      <FAQ />
+      <CustomerCare />
+    </>
+  );
+};
 
-export default ContactUs
+export default ContactUs;
