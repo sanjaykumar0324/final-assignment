@@ -4,6 +4,8 @@ import { AiOutlineMail } from "react-icons/ai";
 import { RiCustomerService2Line } from "react-icons/ri";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { MdKeyboardArrowUp } from "react-icons/md";
+import { FaArrowRightLong } from "react-icons/fa6";
+
 
 //constants
 
@@ -27,3 +29,4 @@ export const EMAIL_ICON = AiOutlineMail;
 export const CHAT_ICON = RiCustomerService2Line;
 export const FAQ_TOGGLE_DOWN_ICON = MdKeyboardArrowDown;
 export const FAQ_TOGGLE_UP_ICON = MdKeyboardArrowUp;
+export const RIGHT_ARROW_ICON = FaArrowRightLong;

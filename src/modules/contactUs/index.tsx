@@ -2,12 +2,12 @@ import React from "react";
 import CustomerCare from "./sections/CustomerCare";
 import FAQ from "./sections/FAQ";
 import HelpDesk from "./sections/HelpDesk";
-import ServiceContactUs from "./sections/ServiceContactUs";
+import HeroContactUs from "./sections/HeroContactUs";
 
 const ContactUs: React.FC = () => {
   return (
     <>
-      <ServiceContactUs />
+      <HeroContactUs />
       <HelpDesk />
       <FAQ />
       <CustomerCare />

@@ -17,3 +17,11 @@ export type HelpDesk_type={
     desc  : string
 
 }
+export type Service_type={
+    id: number,
+    icon: string,
+    title : string,
+    desc  : string,
+    buttonText:string
+
+}
