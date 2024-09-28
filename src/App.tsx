@@ -1,14 +1,16 @@
-import React from 'react'
-import Layout from './layout/Layout'
-import ContactUs from './modules/contactUs'
+import React from "react";
+import Layout from "./layout/Layout";
+import { BrowserRouter } from "react-router-dom";
+import RouteMap from "./routes";
 
-const App :React.FC= () => {
+const App: React.FC = () => {
   return (
-    <Layout>
-      <ContactUs/>
-    </Layout>
-    
-  )
-}
+    <BrowserRouter>
+      <Layout>
+        <RouteMap/>
+      </Layout>
+    </BrowserRouter>
+  );
+};
 
-export default App
+export default App;
