@@ -6,7 +6,7 @@ import ServiceCard from "../components/ServiceCard";
 const HeroContactUs: React.FC = () => {
   return (
     <div className="h-[80vh]">
-      <div className="bg-blue-700 relative">
+      <div className="bg-blue-700 h-[70%] relative">
         <div className="container mx-auto flex flex-col gap-4 px-2  py-32 md:px-10 md:py-36 lg:gap-6 lg:px-72  lg:py-40 xl:gap-10 xl:px-96 xl:py-44 ">
           <div className="">
             <h1 className=" text-center lg:text-5xl font-bold text-white ">
@@ -25,7 +25,7 @@ const HeroContactUs: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="absolute left-1/2 top-[35%] md:top-[40%] xl:top-[45%] transform -translate-x-1/2 text-black w-full px-2  lg:w-[80%] xl:w-[50%]"> 
+      <div className="absolute left-1/2 top-[45%] md:top-[50%]  lg:top-[50%] transform -translate-x-1/2 text-black w-full px-2  lg:w-[80%] xl:w-[50%]"> 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {serviceData.map((item) => (
             <ServiceCard key={item.id} {...item} />

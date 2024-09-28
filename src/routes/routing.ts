@@ -12,7 +12,7 @@ export const routing: Routing[] = [
   {
     id: 11,
     name: "Blog Listing",
-    path: "/blog-listing",
+    path: "/",
     element: BlogListing,
   },
   {

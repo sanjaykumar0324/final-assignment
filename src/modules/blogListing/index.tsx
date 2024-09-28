@@ -1,8 +1,19 @@
 import React from 'react'
+import HeroBlogListing from './sections/HeroBlogListing'
+import TravelAndCultureBlogs from './sections/TravelAndCultureBlogs'
+import FashionBlogs from './sections/FashionBlogs'
+import HeroCard from './components/HeroCard'
 
 const BlogListing :React.FC = () => {
   return (
-    <div>bloglisting</div>
+    <>
+    <HeroBlogListing/>
+    <HeroCard/>
+    <FashionBlogs/>
+
+    <TravelAndCultureBlogs/>
+
+    </>
   )
 }
 

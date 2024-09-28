@@ -7,7 +7,7 @@ export const headerData: HeaderData[] = [
   {
     id: 11,
     name: "Blog Listing",
-    path: "/blog-listing",
+    path: "/",
   },
   {
     id: 12,
