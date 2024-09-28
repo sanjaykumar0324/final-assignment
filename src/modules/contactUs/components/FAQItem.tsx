@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { FAQ_type } from "../utils/type";
-import { FAQ_TOGGLE_DOWN_ICON, FAQ_TOGGLE_UP_ICON } from "../utils/constants";
+import { FAQ_type } from "../../../utils/type";
+import { FAQ_TOGGLE_DOWN_ICON, FAQ_TOGGLE_UP_ICON } from "../../../utils/constants";
 
 const FAQItem: React.FC<FAQ_type> = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState<boolean>(false);

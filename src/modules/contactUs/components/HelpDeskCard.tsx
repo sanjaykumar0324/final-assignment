@@ -1,5 +1,5 @@
 import React from "react";
-import { HelpDesk_type } from "../utils/type";
+import { HelpDesk_type } from "../../../utils/type";
 
 const HelpDeskCard: React.FC<HelpDesk_type> = (helpDeskItem) => {
   return (

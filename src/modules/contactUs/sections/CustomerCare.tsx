@@ -1,7 +1,7 @@
 import React from "react";
-import { customerCareData } from "../../data/customerCareData";
-import CustomerCareCard from "../../components/CustomerCareCard";
-import { CONTACT_DESC, CONTACT_TITLE } from "../../utils/constants";
+import { customerCareData } from "../../../data/customerCareData";
+import { CONTACT_DESC, CONTACT_TITLE } from "../../../utils/constants";
+import CustomerCareCard from "../components/CustomerCareCard";
 
 const CustomerCare: React.FC = () => {
   return (

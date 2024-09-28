@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { FAQ_type } from "../../utils/type";
-import FAQItem from "../../components/FAQItem";
-import { FAQ_API_URL } from "../../utils/constants";
+import { FAQ_type } from "../../../utils/type";
+import { FAQ_API_URL } from "../../../utils/constants";
+import FAQItem from "../components/FAQItem";
 
 const FAQ: React.FC = () => {
     const [faqs, setFaqs] = useState<FAQ_type[]>([]);
