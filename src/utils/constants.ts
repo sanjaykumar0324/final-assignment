@@ -9,6 +9,7 @@ export const COPYRIGHT_TEXT = "© 2024 EComposer Store. All Rights Reserved";
 export const CONTACT_TITLE="Any other questions?";
 export const CONTACT_DESC="We’re here to help. You can contact us: Weekdays: 6am to 6pm PT, Weekends: 6am to 6pm PT";
 export const HELP_DESK_TITLE="Browse our help desk";
+export const FAQ_API_URL="https://run.mocky.io/v3/0f090347-36c7-4fbb-bb92-7fad83adeaf1"
 export const MESSAGE_ICON = MdOutlineMessage;
 export const CALL_ICON = IoCallOutline;
 export const EMAIL_ICON = AiOutlineMail;

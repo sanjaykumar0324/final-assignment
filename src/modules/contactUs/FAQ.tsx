@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { FAQ_type } from "../../utils/type";
 import FAQItem from "../../components/FAQItem";
+import { FAQ_API_URL } from "../../utils/constants";
 
 const FAQ: React.FC = () => {
     const [faqs, setFaqs] = useState<FAQ_type[]>([]);
     
     useEffect(() => {
         const fetchFAQs = async () => {
-            const response = await fetch('/src/data/faqData.json');
+            const response = await fetch(FAQ_API_URL);
             const data: FAQ_type[] = await response.json();
             setFaqs(data);
         };
