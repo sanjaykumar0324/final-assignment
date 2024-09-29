@@ -10,8 +10,8 @@ const BlogSmallCard: React.FC<Blog_type> = (blog) => {
   const categoryNames = findCategoryById(blog.category, categories);
   return (
     <div>
-      <div className="flex lg:flex-row flex-col gap-10">
-        <img src={blog.image} className="lg:w-[15vw] md:w-[70vw] w-[100vw] rounded-xl" />
+      <div className="flex md:flex-row flex-col gap-10">
+        <img src={blog.image} className="lg:w-[35%]   md:w-[50vw] w-[100vw] rounded-xl" />
         <div className="flex flex-col gap-4">
           <div className="flex justify-between">
             <p>

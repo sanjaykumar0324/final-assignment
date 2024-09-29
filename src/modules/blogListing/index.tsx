@@ -6,7 +6,7 @@ import { getAllCategories } from "../../redux/slices/blogCategorySlice";
 import { getAllBlogs } from "../../redux/slices/blogsSlice";
 import LifestyleBlogs from "./sections/LifestyleBlogs";
 import Header from "../../layout/Header";
-import TravelAndCultureBlogs from "./sections/TravelAndCultureBlogs";
+import SpotlightBlogs from "./sections/SpotlightBlogs";
 
 const BlogListing: React.FC = () => {
   const dispatch = useAppDispatch();
@@ -17,12 +17,10 @@ const BlogListing: React.FC = () => {
 
   return (
     <>
-    <Header/>
+      <Header />
       <HeroBlogListing />
-
       <FashionBlogs />
-      <TravelAndCultureBlogs/>
-
+      <SpotlightBlogs/>
       <LifestyleBlogs />
     </>
   );

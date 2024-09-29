@@ -6,6 +6,7 @@ import { BLOG_API_URL } from "../../utils/constants";
 interface InitialState {
   fashion: Blog_type[];
   lifestyle: Blog_type[];
+  spotlight: Blog_type[],
   loading: boolean;
   error: any;
 }
@@ -13,6 +14,7 @@ interface InitialState {
 const initialState: InitialState = {
   fashion: [],
   lifestyle: [],
+  spotlight:[],
   loading: false,
   error: null,
 };
@@ -44,6 +46,7 @@ const blogSlice = createSlice({
         state.loading = false;
         state.fashion = action.payload.fashion;
         state.lifestyle = action.payload.lifestyle;
+        state.spotlight = action.payload.spotlight;
       })
       .addCase(getAllBlogs.rejected, (state, action) => {
         state.loading = false;

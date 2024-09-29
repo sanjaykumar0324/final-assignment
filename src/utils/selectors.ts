@@ -5,4 +5,5 @@ export const selectBlogCategoryError = (state:RootState)=>state.blogCategory.err
 
 export const selectBlogFashion=(state:RootState)=> state.blogs.fashion;
 export const selectBlogLifestyle = (state:RootState)=>state.blogs.lifestyle;
+export const selectBlogSpotlight =(state:RootState)=> state.blogs.spotlight;
 export const selectBlogLoading = (state:RootState)=>state.blogs.loading;

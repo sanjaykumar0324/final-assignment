@@ -26,7 +26,7 @@ export const BLOG_HERO_DESIGN =
 export const FAQ_API_URL =
   "https://run.mocky.io/v3/0f090347-36c7-4fbb-bb92-7fad83adeaf1";
 export const BLOG_API_URL =
-  "https://run.mocky.io/v3/13f4a6df-5323-4d71-8e0d-868da95015e3";
+  "https://run.mocky.io/v3/a6876921-e8ce-4b17-ba1c-c3340689fb7f";
 
 //icons
 export const MESSAGE_ICON = MdOutlineMessage;
