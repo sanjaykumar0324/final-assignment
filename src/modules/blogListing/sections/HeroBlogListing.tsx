@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import {
   BLOG_HERO_DESIGN,
   BLOG_HERO_IMAGE,

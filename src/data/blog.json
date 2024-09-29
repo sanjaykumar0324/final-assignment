@@ -90,6 +90,44 @@
         "desc": "Dive into a world of holistic wellness as we explore nourishing habits...",
         "category": ["cat3"]
       }
+    ],
+    "spotlight": [
+      {
+        "id": "1",
+        "image": "https://cdn.shopify.com/s/files/1/0726/1221/7115/articles/img-bl-12_1100x.png?v=1683625677",
+        "author": "Sanjay",
+        "date": "29 sep 2024",
+        "title": "Travel Tales and Cultural Immersion",
+        "desc": "Forget the tourist hotspots and explore the road less traveled as we uncover hidden gems around the world. From enchanting small towns and...",
+        "category": ["cat1","cat3"]
+      },
+      {
+        "id": "2",
+        "image": "https://cdn.shopify.com/s/files/1/0726/1221/7115/articles/img-bl-11_720x.png?v=1683625649",
+        "author": "Sanjay",
+        "date": "29 sep 2024",
+        "title": "Celebrating Artistic Visionaries",
+        "desc": "In this blog, we turn our attention to the world of art and creativity, showcasing...",
+        "category": ["cat1", "cat3"]
+      },
+      {
+        "id": "3",
+        "image": "https://cdn.shopify.com/s/files/1/0726/1221/7115/articles/img-bl-10_720x.png?v=1683625618",
+        "author": "Sanjay",
+        "date": "29 sep 2024",
+        "title": "Embracing Minimalism and Decluttering",
+        "desc": "In a world of constant consumerism, this blog invites you to simplify...",
+        "category": ["cat1", "cat3"]
+      },
+      {
+        "id": "4",
+        "image": "https://cdn.shopify.com/s/files/1/0726/1221/7115/articles/img-bl-9_720x.png?v=1683625585",
+        "author": "Sanjay",
+        "date": "29 sep 2024",
+        "title": "Exploring Healthy Habits and Holistic Wellness",
+        "desc": "Dive into a world of holistic wellness as we explore nourishing habits...",
+        "category": ["cat3"]
+      }
     ]
   }
 }
