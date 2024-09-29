@@ -1,0 +1,95 @@
+{
+  "category": [
+    {
+      "id": "cat1",
+      "categoryName": "Design"
+    },
+    {
+      "id": "cat2",
+      "categoryName": "Fashion"
+    },
+    {
+      "id": "cat3",
+      "categoryName": "Lifestyle"
+    }
+  ],
+  "blogs": {
+    "fashion": [
+      {
+        "id": "1",
+        "image": "https://cdn.shopify.com/s/files/1/0726/1221/7115/articles/img-bl-4_720x.png?v=1683621391",
+        "author": "Sanjay",
+        "date": "29 sep 2024",
+        "title": "Here's why you should try mood",
+        "desc": "But they were not the only ones to lean into the high octane trend, with MoschinoCersace and Jil Sander plumping for bold prints...",
+        "category": ["cat1", "cat2"]
+      },
+      {
+        "id": "2",
+        "image": "https://cdn.shopify.com/s/files/1/0726/1221/7115/articles/img-bl-3_720x.png?v=1683621366",
+        "author": "Sanjay",
+        "date": "29 sep 2024",
+        "title": "Your Guide to Fashion Forward Living",
+        "desc": "Cersace and Jil Sander plumping for bold prints, from colourful stripes to...",
+        "category": ["cat1", "cat2"]
+      },
+      {
+        "id": "3",
+        "image": "https://cdn.shopify.com/s/files/1/0726/1221/7115/articles/img-bl-2_720x.png?v=1683621336",
+        "author": "Sanjay",
+        "date": "29 sep 2024",
+        "title": "Where Style and Creativity Collide",
+        "desc": "Cersace and Jil Sander plumping for bold prints, from colourful stripes to...",
+        "category": ["cat1"]
+      },
+      {
+        "id": "4",
+        "image": "https://cdn.shopify.com/s/files/1/0726/1221/7115/articles/img-bl-1_720x.png?v=1683621301",
+        "author": "Sanjay",
+        "date": "29 sep 2024",
+        "title": "Unveiling the Latest Fashion Trends",
+        "desc": "Cersace and Jil Sander plumping for bold prints, from colourful stripes to...",
+        "category": ["cat1", "cat2"]
+      }
+    ],
+
+    "lifestyle": [
+      {
+        "id": "1",
+        "image": "https://cdn.shopify.com/s/files/1/0726/1221/7115/articles/img-bl-8_c9accd91-b5cc-4d1c-b7c5-27c324302426_720x.png?v=1683624775",
+        "author": "Sanjay",
+        "date": "29 sep 2024",
+        "title": "Embracing Mindfulness in a Busy World",
+        "desc": "we delve into the importance of incorporating mindfulness practices into our daily lives. Discover tips for finding inner peace, reducing stress, and cultivating...",
+        "category": ["cat3"]
+      },
+      {
+        "id": "2",
+        "image": "https://cdn.shopify.com/s/files/1/0726/1221/7115/articles/img-bl-6_720x.png?v=1683624505",
+        "author": "Sanjay",
+        "date": "29 sep 2024",
+        "title": "Travel Tales and Cultural Immersion",
+        "desc": "Join us on a journey around the globe as we explore different...",
+        "category": ["cat1", "cat3"]
+      },
+      {
+        "id": "3",
+        "image": "https://cdn.shopify.com/s/files/1/0726/1221/7115/articles/img-bl-7_720x.png?v=1683624537",
+        "author": "Sanjay",
+        "date": "29 sep 2024",
+        "title": "Embracing Minimalism and Decluttering",
+        "desc": "In a world of constant consumerism, this blog invites you to simplify...",
+        "category": ["cat1", "cat3"]
+      },
+      {
+        "id": "4",
+        "image": "https://cdn.shopify.com/s/files/1/0726/1221/7115/articles/img-bl-5_720x.png?v=1683624796",
+        "author": "Sanjay",
+        "date": "29 sep 2024",
+        "title": "Exploring Healthy Habits and Holistic Wellness",
+        "desc": "Dive into a world of holistic wellness as we explore nourishing habits...",
+        "category": ["cat3"]
+      }
+    ]
+  }
+}

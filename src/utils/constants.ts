@@ -19,11 +19,14 @@ export const CONTACT_US_TITLE = "HELP CENTER";
 export const CONTACT_US_DESC = "Let us know how we may help you?";
 export const BLOG_HERO_TITLE =
   "Here’s what’s new in your favourite stores & online this week...";
-  export const BLOG_HERO_DESIGN="Here’s what’s new in your favourite stores & online this week..."
+export const BLOG_HERO_DESIGN =
+  "Here’s what’s new in your favourite stores & online this week...";
 
 // urls
 export const FAQ_API_URL =
   "https://run.mocky.io/v3/0f090347-36c7-4fbb-bb92-7fad83adeaf1";
+export const BLOG_API_URL =
+  "https://run.mocky.io/v3/13f4a6df-5323-4d71-8e0d-868da95015e3";
 
 //icons
 export const MESSAGE_ICON = MdOutlineMessage;

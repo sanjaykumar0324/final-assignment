@@ -25,3 +25,18 @@ export type Service_type={
     buttonText:string
 
 }
+
+export type Blog_type={
+    id:number,
+    image:string,
+    author :string,
+    date: string,
+    title:string,
+    desc:string,
+    category:string[]
+}
+
+export type Blog_category_type={
+   id: string,
+   categoryName:string
+}
