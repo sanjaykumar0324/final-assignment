@@ -23,7 +23,7 @@ const FAQ: React.FC = () => {
 
   return (
     <div className="bg-[#E0E0FF]">
-      <div className="mx-auto flex flex-col gap-10 p-4 py-4 lg:py-28 lg:px-48">
+      <div className="mx-auto flex flex-col gap-10 p-4 py-24  md:py-32 lg:py-28 lg:px-48">
         <h2
           className="text-2xl lg:text-4xl font-bold mb-4 text-center"
           data-aos="slide-up"

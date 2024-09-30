@@ -25,7 +25,7 @@ const FAQItem: React.FC<FAQItemProps> = ({
         onClick={() => onToggle(index)}
       >
         <h3 className="text-lg font-semibold">{question}</h3>
-        <button>
+        <button className={`text-xl p-2 border border-gray-300 rounded-full  ${isActive ? 'bg-[#E0E0FF]': "bg-white"}hover:bg-[#E0E0FF]`}>
           {isActive ? <FAQ_TOGGLE_UP_ICON /> : <FAQ_TOGGLE_DOWN_ICON />}
         </button>
       </div>

@@ -19,7 +19,7 @@ const HeroContactUs: React.FC = () => {
     setHelpSearch("");
   };
   return (
-    <div className="h-[80vh]">
+    <div className="h-[90vh] md:h-[75vh]">
       <div
         className="h-[70%] relative bg-cover bg-center "
         style={{

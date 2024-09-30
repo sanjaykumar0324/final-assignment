@@ -7,6 +7,7 @@ import { MdKeyboardArrowUp } from "react-icons/md";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { MdOutlineArrowOutward } from "react-icons/md";
 import { BsLightningCharge } from "react-icons/bs";
+import { GoDotFill } from "react-icons/go";
 
 //constants
 
@@ -21,10 +22,13 @@ export const BLOG_HERO_TITLE =
   "Here’s what’s new in your favourite stores & online this week...";
 export const BLOG_HERO_DESIGN =
   "Here’s what’s new in your favourite stores & online this week...";
+export const EMAIL = "info@ecomposershop.com";
+export const PHONE = " (212) 555-1234";
+export const COMPANY_NAME = "Vince";
 
 // urls
 export const FAQ_API_URL =
-  "https://run.mocky.io/v3/0f090347-36c7-4fbb-bb92-7fad83adeaf1";
+  "https://run.mocky.io/v3/6ae42373-b1cc-47e8-9d60-a3b072850819";
 export const BLOG_API_URL =
   "https://run.mocky.io/v3/07874a57-3b38-4bb3-88c4-d8c0d9bdde06";
 // export const BLOG_API_URL =
@@ -40,6 +44,7 @@ export const FAQ_TOGGLE_UP_ICON = MdKeyboardArrowUp;
 export const RIGHT_ARROW_ICON = FaArrowRightLong;
 export const NAVIGATE_ARROW_ICON = MdOutlineArrowOutward;
 export const BLOG_SPARK_ICON = BsLightningCharge;
+export const ONLINE_DOT_ICON = GoDotFill;
 
 //images url
 export const BLOG_HERO_IMAGE =
