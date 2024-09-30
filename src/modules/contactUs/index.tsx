@@ -6,6 +6,8 @@ import HeroContactUs from "./sections/HeroContactUs";
 import Layout from "../../layout/Layout";
 
 const ContactUs: React.FC = () => {
+  
+
   return (
     <>
       <Layout>

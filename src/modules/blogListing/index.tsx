@@ -7,13 +7,21 @@ import { getAllBlogs } from "../../redux/slices/blogsSlice";
 import LifestyleBlogs from "./sections/LifestyleBlogs";
 import Header from "../../layout/Header";
 import SpotlightBlogs from "./sections/SpotlightBlogs";
+import Aos from "aos";
+
+
 
 const BlogListing: React.FC = () => {
   const dispatch = useAppDispatch();
   useEffect(() => {
-    dispatch(getAllCategories());
-    dispatch(getAllBlogs());
-  }, []);
+    const fetchData = async () => {
+      await dispatch(getAllCategories());
+      await dispatch(getAllBlogs());
+      Aos.refresh();
+    };
+
+    fetchData();
+  }, [dispatch]);
 
   return (
     <>

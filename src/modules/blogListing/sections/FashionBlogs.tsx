@@ -9,11 +9,27 @@ const FashionBlogs: React.FC = () => {
   console.log(fashionBlogs);
 
   return (
-    <div className="min-h-screen flex flex-col justify-center mb-20">
+    <div className=" flex flex-col justify-center ">
       <div className="container mx-auto flex gap-10 p-4">
-        <img src={fashionBlogs.image} className="rounded-full" />
+      <div
+          data-aos="fade-right"
+          data-aos-duration="300"
+          data-aos-easing="linear"
+        >
+          <img
+            src={fashionBlogs.image}
+            className="rounded-full"
+            alt="Lifestyle"
+          />
+        </div>
 
-        <h1 className="text-2xl md:text-5xl">{fashionBlogs.title}</h1>
+        <div
+          data-aos="fade-left"
+          data-aos-duration="300"
+          data-aos-easing="linear"
+        >
+          <h1 className="text-2xl md:text-5xl">{fashionBlogs.title}</h1>
+        </div>
       </div>
       <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 p-4">
         {fashionBlogs.posts.length > 0 && (

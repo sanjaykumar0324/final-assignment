@@ -35,6 +35,7 @@ export const getAllBlogs = createAsyncThunk(
       alert(
         "Error fetching API. The API link may be expired. For details, please check the README file."
       );
+      window.location.reload()
       return rejectWithValue("Error fetching API");
     }
   }

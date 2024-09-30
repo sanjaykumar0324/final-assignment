@@ -7,19 +7,29 @@ import {
 import BlogSpotlightCard from "../components/BlogSpotlightCard";
 import { findCategoryById } from "../../../utils/utilityFunctions";
 
+
 const SpotlightBlogs: React.FC = () => {
   const spotlightBlogs = useAppSelector(selectBlogSpotlight);
   const firstSpotlight = spotlightBlogs.posts[0];
 
   const categories = useAppSelector(selectBlogCategory);
-  const categoryNames = firstSpotlight && firstSpotlight.category
-    ? findCategoryById(firstSpotlight.category, categories)
-    : [];
+  const categoryNames =
+    firstSpotlight && firstSpotlight.category
+      ? findCategoryById(firstSpotlight.category, categories)
+      : [];
+      
+      
 
   return (
-    <div className="min-h-screen flex flex-col gap-5 mb-20">
-    
-        <h1 className="text-2xl md:text-5xl text-center ">{spotlightBlogs.title}</h1>
+    <div className=" flex flex-col gap-5 mt-20">
+      <h1
+        className="text-2xl md:text-5xl text-center "
+        data-aos="zoom-in"
+        data-aos-duration="600"
+        data-aos-easing="linear"
+      >
+        {spotlightBlogs.title}
+      </h1>
       <div className="container mx-auto">
         {firstSpotlight ? (
           <div className="flex justify-center px-2">
@@ -29,7 +39,9 @@ const SpotlightBlogs: React.FC = () => {
                 <p className="font-semibold">
                   By {firstSpotlight.author} / {firstSpotlight.date}
                 </p>
-                <h1 className="text-sm md:text-lg font-bold">{firstSpotlight.title}</h1>
+                <h1 className="text-sm md:text-lg font-bold">
+                  {firstSpotlight.title}
+                </h1>
                 <p>{firstSpotlight.desc}</p>
                 <div className="flex gap-10">
                   {categoryNames.map((item, index) => (
