@@ -26,7 +26,9 @@ export const BLOG_HERO_DESIGN =
 export const FAQ_API_URL =
   "https://run.mocky.io/v3/0f090347-36c7-4fbb-bb92-7fad83adeaf1";
 export const BLOG_API_URL =
-  "https://run.mocky.io/v3/a6876921-e8ce-4b17-ba1c-c3340689fb7f";
+  "https://run.mocky.io/v3/07874a57-3b38-4bb3-88c4-d8c0d9bdde06";
+// export const BLOG_API_URL =
+//   "https://run.mocky.io/v3/a6876921-e8ce-4b17-ba1c-c3340689fb7f";
 
 //icons
 export const MESSAGE_ICON = MdOutlineMessage;
@@ -44,3 +46,5 @@ export const BLOG_HERO_IMAGE =
   "https://cdn.shopify.com/s/files/1/0726/1221/7115/files/bn-bl-1.png?v=1683616783";
 export const FEATURED_CATEGORIES_IMAGE =
   "https://cdn.shopify.com/s/files/1/0726/1221/7115/files/bn-bl-2.png?v=1683619218";
+export const HELP_CENTER_BG_IMAGE =
+  "https://cdn.shopify.com/s/files/1/0726/1221/7115/files/ecom-no-replace-2RgmJOxbvBbg-hr-search.png?v=1724402439";

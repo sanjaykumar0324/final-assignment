@@ -23,6 +23,7 @@ const FAQ: React.FC = () => {
           {faqs.map((faq, index) => (
             <FAQItem key={index} question={faq.question} answer={faq.answer} />
             
+            
           ))}
         </div>
       </div>

@@ -14,12 +14,12 @@ const BlogSmallCard: React.FC<Blog_type> = (blog) => {
         <img src={blog.image} className="lg:w-[35%]   md:w-[50vw] w-[100vw] rounded-xl" />
         <div className="flex flex-col gap-4">
           <div className="flex justify-between">
-            <p>
+            <p className="font-semibold">
               By {blog.author} / in {blog.date}
             </p>
             <p className="text-lg">{<NAVIGATE_ARROW_ICON />}</p>
           </div>
-          <h1>{blog.title}</h1>
+          <h1 className="font-bold text-lg">{blog.title}</h1>
           <p>{blog.desc}</p>
           <div className="flex gap-10 ">
             {categoryNames.map((item, index) => (

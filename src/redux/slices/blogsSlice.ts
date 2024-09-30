@@ -3,18 +3,25 @@ import { Blog_type } from "../../utils/type";
 import axios from "axios";
 import { BLOG_API_URL } from "../../utils/constants";
 
+
+interface BlogCategory {
+  title: string;
+  image?:string;
+  posts: Blog_type[];
+}
 interface InitialState {
-  fashion: Blog_type[];
-  lifestyle: Blog_type[];
-  spotlight: Blog_type[],
+  fashion: BlogCategory;
+  lifestyle: BlogCategory;
+  spotlight: BlogCategory,
   loading: boolean;
   error: any;
 }
 
+
 const initialState: InitialState = {
-  fashion: [],
-  lifestyle: [],
-  spotlight:[],
+  fashion: {title :"",image:"",posts :[]},
+  lifestyle: {title :"",image:"",posts :[]},
+  spotlight:{title :"",image:"",posts :[]},
   loading: false,
   error: null,
 };

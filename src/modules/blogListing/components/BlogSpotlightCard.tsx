@@ -14,11 +14,11 @@ const BlogSpotlightCard :React.FC<Blog_type>= (blog) => {
             <img src={blog.image} className='rounded-xl lg:rounded-2xl' />
             <div className='p-2'>
               <div className='flex justify-between'>
-                <p>By{blog.author} / {blog.date}</p>
+                <p className='font-semibold'>By{blog.author} / {blog.date}</p>
                 <p className="text-lg">{<NAVIGATE_ARROW_ICON />}</p>
               </div>
 
-              <h1>{blog.title}</h1>
+              <h1 className='font-bold'>{blog.title}</h1>
               <p>{blog.desc}</p>
               <div className="flex gap-10 ">
             </div>

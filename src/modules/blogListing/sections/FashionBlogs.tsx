@@ -9,15 +9,20 @@ const FashionBlogs: React.FC = () => {
   console.log(fashionBlogs);
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen flex flex-col justify-center mb-20">
+      <div className="container mx-auto flex gap-10 p-4">
+        <img src={fashionBlogs.image} className="rounded-full" />
+
+        <h1 className="text-2xl md:text-5xl">{fashionBlogs.title}</h1>
+      </div>
       <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 p-4">
-        {fashionBlogs.length > 0 && (
+        {fashionBlogs.posts.length > 0 && (
           <div className="col-span-1">
-            <BlogBigCard {...fashionBlogs[0]} />
+            <BlogBigCard {...fashionBlogs.posts[0]} />
           </div>
         )}
         <div className="col-span-1 grid grid-cols-1 gap-4">
-          {fashionBlogs.slice(1).map((blog) => (
+          {fashionBlogs.posts.slice(1).map((blog) => (
             <BlogSmallCard key={blog.id} {...blog} />
           ))}
         </div>
