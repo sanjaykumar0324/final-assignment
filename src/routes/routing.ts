@@ -1,6 +1,7 @@
 import { ComponentType } from "react";
 import BlogListing from "../modules/blogListing";
 import ContactUs from "../modules/contactUs";
+import NotFoundPage from "../components/NotFoundPage";
 
 interface Routing {
   id: number;
@@ -20,5 +21,11 @@ export const routing: Routing[] = [
     name: "Contact us",
     path: "/contact-us",
     element: ContactUs,
+  },
+  {
+    id: 13,
+    name: "Not Found",
+    path: "/*",
+    element: NotFoundPage,
   },
 ];

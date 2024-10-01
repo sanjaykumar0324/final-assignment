@@ -22,7 +22,7 @@ const BlogSpotlightCard :React.FC<Blog_type>= (blog) => {
               <p>{blog.desc}</p>
               <div className="flex gap-10 ">
             </div>
-          <div className='flex gap-10 mt-4'>
+          <div className='flex gap-2 md:gap-10 mt-4'>
             {categoryNames.map((item, index) => (
               <button className="px-4  py-1  text-sm bg-slate-300 rounded-md " key={index}>
                      {item}

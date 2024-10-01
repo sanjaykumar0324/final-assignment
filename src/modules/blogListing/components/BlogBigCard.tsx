@@ -15,7 +15,7 @@ const BlogBigCard: React.FC<Blog_type> = (blog) => {
           <p className="font-semibold"> 
             By {blog.author}  in {blog.date}
           </p>
-          <p className="text-lg pr-4 ">{<NAVIGATE_ARROW_ICON />}</p>
+          <p className="text-lg  ">{<NAVIGATE_ARROW_ICON />}</p>
         </div>
         <div className="flex flex-col gap-4">
             <h1 className="font-bold text-lg">{blog.title}</h1>
