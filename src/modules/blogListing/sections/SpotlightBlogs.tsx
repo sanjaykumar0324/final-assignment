@@ -33,9 +33,9 @@ const SpotlightBlogs: React.FC = () => {
       <div className="container mx-auto">
         {firstSpotlight ? (
           <div className="flex justify-center px-2">
-            <div className="relative rounded-xl bg-opacity-50">
-              <img src={firstSpotlight.image} className="w-full rounded-xl" />
-              <div className="absolute left-1/2 transform -translate-x-1/2 -bottom-36 md:-bottom-24 lg:-bottom-28 xl:-bottom-16 bg-white rounded-2xl w-[90%] lg:w-3/4 gap-4 lg:px-10 p-6 md:p-6 lg:py-10">
+            <div className="relative rounded-xl bg-opacity-50 ">
+              <img src={firstSpotlight.image} className="w-[100vw] rounded-xl xl:px-28" />
+              <div className="absolute left-1/2 transform -translate-x-1/2 -bottom-36 md:-bottom-24 lg:-bottom-28 xl:-bottom-16 bg-white rounded-2xl w-[90%] lg:w-[60%] gap-4 lg:px-10 p-6 md:p-6 lg:py-10">
                 <div >
                   <p className="font-semibold text-sm">
                     By {firstSpotlight.author} / {firstSpotlight.date}
@@ -62,7 +62,7 @@ const SpotlightBlogs: React.FC = () => {
           <p>No spotlight blogs available.</p>
         )}
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 p-2 mt-44">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 p-2 mt-44 xl:px-28">
           {spotlightBlogs.posts.slice(1).map((blog) => (
             <BlogSpotlightCard key={blog.id} {...blog} />
           ))}
