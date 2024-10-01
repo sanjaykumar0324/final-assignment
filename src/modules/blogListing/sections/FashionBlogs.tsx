@@ -10,7 +10,7 @@ const FashionBlogs: React.FC = () => {
 
   return (
     <div className=" flex flex-col justify-center ">
-      <div className="container mx-auto flex gap-10 p-4">
+      <div className="container mx-auto flex gap-10 p-4 xl:px-28">
       <div
           data-aos="fade-right"
           data-aos-duration="300"
@@ -31,7 +31,7 @@ const FashionBlogs: React.FC = () => {
           <h1 className="text-2xl md:text-5xl">{fashionBlogs.title}</h1>
         </div>
       </div>
-      <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 p-4">
+      <div className="container mx-auto grid grid-cols-1 xl:grid-cols-2 gap-4 p-4 xl:px-28">
         {fashionBlogs.posts.length > 0 && (
           <div className="col-span-1">
             <BlogBigCard {...fashionBlogs.posts[0]} />

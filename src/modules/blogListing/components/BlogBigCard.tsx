@@ -11,9 +11,9 @@ const BlogBigCard: React.FC<Blog_type> = (blog) => {
   return (
       <div className="flext flex-col ">
         <img src={blog.image} className="w-[100vw] xl:w-[80vw] rounded-2xl"/>
-        <div className="flex justify-between p-2 gap-4" >
+        <div className="flex justify-between py-2 gap-4" >
           <p className="font-semibold"> 
-            By {blog.author} / in {blog.date}
+            By {blog.author}  in {blog.date}
           </p>
           <p className="text-lg pr-4 ">{<NAVIGATE_ARROW_ICON />}</p>
         </div>

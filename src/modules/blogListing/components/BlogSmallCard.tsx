@@ -11,7 +11,7 @@ const BlogSmallCard: React.FC<Blog_type> = (blog) => {
   return (
     <div>
       <div className="flex md:flex-row flex-col gap-10">
-        <img src={blog.image} className="lg:w-[35%]   md:w-[50vw] w-[100vw] rounded-xl" />
+        <img src={blog.image} className="xl:w-[32%] lg:w-[22%]  md:w-[30%] w-[100vw] rounded-xl" />
         <div className="flex flex-col gap-4">
           <div className="flex justify-between">
             <p className="font-semibold">
