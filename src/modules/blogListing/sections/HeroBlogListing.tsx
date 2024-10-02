@@ -40,6 +40,8 @@ const HeroBlogListing: React.FC = () => {
                 className="text-xl   hover:bg-red-300 text-white rounded-full lg:text-2xl p-2 border border-gray-500"
                 data-aos="fade-up-left"
                 data-aos-duration="300"
+                data-aos-delay="100"
+
                 data-aos-easing="linear"
               >
                 {<NAVIGATE_ARROW_ICON />}{" "}
@@ -49,9 +51,11 @@ const HeroBlogListing: React.FC = () => {
         </div>
         <div className="lg:col-span-1 flex flex-col gap-4 ">
           <div
-            className="bg-[#BDE48A]    justify-center p-4 xl:px-10 h-[30vh] md:h-[40] lg:h-[30]   rounded-xl"
+            className="bg-[#BDE48A]   p-4 xl:px-10 max-md:h-[40vh]  md:h-[40vh] lg:h-[30vh]   rounded-xl"
             data-aos="fade-down-left"
             data-aos-duration="300"
+            data-aos-delay="100"
+
             data-aos-easing="linear"
           >
             <div className="flex justify-end ">
@@ -59,7 +63,7 @@ const HeroBlogListing: React.FC = () => {
                 {<BLOG_SPARK_ICON />}
               </p>
             </div>
-            <div className="flex flex-col h-[100%] justify-center gap-4">
+            <div className="flex flex-col h-[100%] justify-center gap-2">
               <p className="font-bold">Design</p>
               <p>{BLOG_HERO_DESIGN}</p>
               <p className="flex items-center gap-2 underline hover:text-red-300">

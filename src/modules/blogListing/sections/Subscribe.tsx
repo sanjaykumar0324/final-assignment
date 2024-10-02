@@ -3,9 +3,9 @@ import { TELEGRAM_ICON } from '../../../utils/constants'
 
 const Subscribe : React.FC= () => {
   return (
-    <div>
+    <div className='m-2'>
         
-        <div className='container mx-auto xl:px-16 xl:w-[72%] flex max-lg:gap-5 flex-col lg:flex-row items-center justify-evenly border border-gray-300 p-10'>
+        <div className='container mx-auto  xl:px-16 xl:py-16 lg:p-10  md:p-6 xl:w-[72%] flex max-lg:gap-5 flex-col lg:flex-row items-center justify-evenly border border-gray-300  px-2'>
             <div>{<TELEGRAM_ICON className='text-7xl'/>}</div>
             <div className='lg:w-1/4 w-3/4 flex flex-col gap-2'>
                 <p className='font-bold text-4xl'>Inside Design:</p>
