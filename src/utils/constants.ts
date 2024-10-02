@@ -8,6 +8,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import { MdOutlineArrowOutward } from "react-icons/md";
 import { BsLightningCharge } from "react-icons/bs";
 import { GoDotFill } from "react-icons/go";
+import { LiaTelegramPlane } from "react-icons/lia";
 
 //constants
 
@@ -44,6 +45,7 @@ export const RIGHT_ARROW_ICON = FaArrowRightLong;
 export const NAVIGATE_ARROW_ICON = MdOutlineArrowOutward;
 export const BLOG_SPARK_ICON = BsLightningCharge;
 export const ONLINE_DOT_ICON = GoDotFill;
+export const TELEGRAM_ICON = LiaTelegramPlane;
 
 //images url
 export const BLOG_HERO_IMAGE =

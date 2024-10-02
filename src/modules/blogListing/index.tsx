@@ -8,8 +8,8 @@ import LifestyleBlogs from "./sections/LifestyleBlogs";
 import Header from "../../layout/Header";
 import SpotlightBlogs from "./sections/SpotlightBlogs";
 import Aos from "aos";
-
-
+import CustomErrorBoundary from "../../components/ErrorBoundary";
+import Subscribe from "./sections/Subscribe";
 
 const BlogListing: React.FC = () => {
   const dispatch = useAppDispatch();
@@ -25,11 +25,14 @@ const BlogListing: React.FC = () => {
 
   return (
     <>
-      <Header />
-      <HeroBlogListing />
-      <FashionBlogs />
-      <SpotlightBlogs/>
-      <LifestyleBlogs />
+      <CustomErrorBoundary>
+        <Header />
+        <HeroBlogListing />
+        <Subscribe />
+        <FashionBlogs />
+        <SpotlightBlogs />
+        <LifestyleBlogs />
+      </CustomErrorBoundary>
     </>
   );
 };
