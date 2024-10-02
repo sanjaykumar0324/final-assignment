@@ -54,3 +54,34 @@ export const FEATURED_CATEGORIES_IMAGE =
   "https://cdn.shopify.com/s/files/1/0726/1221/7115/files/bn-bl-2.png?v=1683619218";
 export const HELP_CENTER_BG_IMAGE =
   "https://cdn.shopify.com/s/files/1/0726/1221/7115/files/ecom-no-replace-2RgmJOxbvBbg-hr-search.png?v=1724402439";
+
+
+
+
+
+  /*
+
+
+
+  <div
+        className="h-[60vh] mb-40 max-lg:mb-[360px]"
+        style={{ backgroundImage: url(${contactBanner}), backgroundSize: 'cover', backgroundPosition: 'center' }}
+      >
+        <div className="h-full backdrop-blur-md flex flex-col gap-2 items-center text-white">
+            <h1 className="text-3xl lg:text-5xl font-semibold mt-28">HELP CENTER</h1>
+            <p className="text-sm md:text-base lg:font-medium">Let us know how we may help you?</p>
+            <div className="bg-white p-1 w-[90%] lg:w-[40%] rounded-full flex mt-16">
+              <input className="text-base px-4 py-2 lg:py-4 rounded-full grow text-black focus:outline-none font-medium max-sm:w-full" type="text" placeholder="Search for answer..." />
+              <Button className="rounded-full px-6 lg:px-12">Search</Button>
+            </div>
+        </div>
+        <div className="absolute w-full lg:flex gap-6 justify-center translate-y-[-25%] lg:translate-y-[-50%] p-4">
+            <TrackExchangeCard icon="https://cdn.shopify.com/s/files/1/0726/1221/7115/files/ecom-no-replace-Te8cHLsQU8icon-hc-1.png?v=1724405573" title="Order Tracking" description="Log in to check the status of your order" buttonText="Track your order"/>
+            <TrackExchangeCard icon="https://cdn.shopify.com/s/files/1/0726/1221/7115/files/ecom-no-replace-Cbwk5YMW5Dicon-hc-2.png?v=1724405681" title="Return & Exchange" description="We make it easy to return and exchange styles." buttonText="Start a return"/>
+        </div>
+      </div>
+
+
+
+
+  */
