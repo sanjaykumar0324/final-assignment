@@ -48,7 +48,7 @@ const HeroContactUs: React.FC = () => {
             </p>
           </div>
           <div
-            className="  border border-black bg-white rounded-full w-1/2"
+            className="  border border-black bg-white rounded-full max-lg:w-full max-lg:mx-10 w-1/2"
             data-aos="fade-up"
             data-aos-duration="500"
             data-aos-delay="150"
@@ -58,10 +58,10 @@ const HeroContactUs: React.FC = () => {
                 type="text"
                 value={helpSearch}
                 onChange={(e) => handleHelpOnChange(e)}
-                className="px-2 m-2 lg:m-3 xl:px-4 xl:m-4 text-sm  xl:text-lg focus:outline-none"
+                className="px-2 m-2 max-lg:w-[100%] w-1/2 text-sm  xl:text-lg focus:outline-none"
               />
               <button
-                className="px-2 py-1 m-0.5  sm:mr-1 sm:px-4 sm:py-2 sm:my-1  md:mx-1  md:my-1 md:px-4 md:py-2  lg:px-4 lg:py-2  xl:py-4 xl:px-6 bg-black text-white text-sm xl:text-lg rounded-2xl xl:rounded-full"
+                className="px-4 py-2 m-1  bg-black text-white text-sm xl:text-lg rounded-2xl xl:rounded-full"
                 onClick={handleHelpSearchClick}
               >
                 Search
