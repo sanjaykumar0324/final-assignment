@@ -28,11 +28,10 @@ export const COMPANY_NAME = "Vince";
 
 // urls
 export const FAQ_API_URL =
-  "https://run.mocky.io/v3/6ae42373-b1cc-47e8-9d60-a3b072850819";
+  "https://mocki.io/v1/f1945af9-1578-4250-87bd-73d68f95fb16";
+
 export const BLOG_API_URL =
-  "https://run.mocky.io/v3/07874a57-3b38-4bb3-88c4-d8c0d9bdde06";
-// export const BLOG_API_URL =
-//   "https://run.mocky.io/v3/a6876921-e8ce-4b17-ba1c-c3340689fb7f";
+  "https://mocki.io/v1/a378a83a-73e8-45dd-a1a6-fcde5fbcdf5d";
 
 //icons
 export const MESSAGE_ICON = MdOutlineMessage;
