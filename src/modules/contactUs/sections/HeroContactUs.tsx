@@ -53,6 +53,7 @@ const HeroContactUs: React.FC = () => {
             data-aos-duration="500"
             data-aos-delay="150"
           >
+            <input/>
             <input
               placeholder="Search Your Answers"
               type="text"
