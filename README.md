@@ -1,7 +1,7 @@
 # Final Assignment 
 
 ## Description
-This application provides a help center and blog platform. It fetches FAQ data from a local JSON file and renders it on the screen. The application features blog categories and allows users to explore various blog posts. State management for blogs is handled using Redux slices to maintain state across different pages.
+This application provides a help center and blog page. It fetches FAQ data from a local JSON file and renders it on the screen. The application features blog categories and allows users to explore various blog posts. State management for blogs is handled using Redux slices to maintain state across different pages.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,7 +15,7 @@ This application provides a help center and blog platform. It fetches FAQ data f
 
 ## Installation
 1. Clone the repository:
-   ```bash
+  
    git clone https://github.com/sanjaykumar0324/final-assignment.git
 
 2. Navigate to the project directory
@@ -23,7 +23,7 @@ This application provides a help center and blog platform. It fetches FAQ data f
 
 ## Usage
  To start the application, run: npm run dev
- Then navigate to http://localhost:5173 in your browser to view the help center and blogs.
+ Then navigate to http://localhost:5173 in  browser to view the help center and blogs.
 
 ## Features
 1. FAQ section rendered from local JSON data.
@@ -32,6 +32,7 @@ This application provides a help center and blog platform. It fetches FAQ data f
 4. Responsive design for optimal viewing across devices.
 5. Engaging animations for improved user experience.
 6. Progressive Web App (PWA) capabilities for offline access and a native app-like experience.
+7. Redirects to a "Not Found" page for any invalid navigation attempts.
 
 
 ## Approach for data handling
@@ -49,8 +50,8 @@ The application fetches data from local JSON files located in the public/data fo
 If you want to test with a mock API:
 
 1. Go to [MockAPI](https://mockapi.io)
-2. Paste your JSON data into the provided field and generate a link.
-3. Replace the existing links in src/redux/slices/categorySlice.js and src/redux/slices/blogSlice.js with your new Mock API URL.
+2. Paste the JSON data into the provided field and generate a link.
+3. Replace the existing links in src/redux/slices/categorySlice.js and src/redux/slices/blogSlice.js with  new Mock API URL.
 
 ## Contact
 For inquiries, please email me at [sanju4232908@gmail.com](mailto:sanju4232908@gmail.com).
