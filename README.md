@@ -39,9 +39,9 @@ Then navigate to http://localhost:5173 in browser to view the help center and bl
 7. Redirects to a "Not Found" page for any invalid navigation attempts.
 
 ## Approach for data handling
-## Blog Section State Management
 
-## Why I Chose Redux
+
+## Why I Chose Redux In Blog Section State Management
 
 I selected **Redux** for managing the state of the blog section for several key reasons:
 
