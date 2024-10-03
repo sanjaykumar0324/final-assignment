@@ -60,7 +60,7 @@ Integration with middleware such as **Redux Thunk** allows for efficient handlin
 ### 5. Separation of Concerns
 Redux promotes a clear structure for actions, reducers, and the store, which leads to better code organization and maintainability.
 
-## Why Redux Over Context API
+### Why Redux Over Context API
 
 While both Redux and Context API can manage state, I prefer Redux for the following reasons:
 
