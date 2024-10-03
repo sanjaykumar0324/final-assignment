@@ -31,7 +31,7 @@ export const getAllBlogs = createAsyncThunk(
     try {
               // const res=  await axios.get(BLOG_API_URL);
 
-      const res = await axios.get("/src/data/blog.json");
+      const res = await axios.get("/data/blog.json");
       return res.data.blogs;
     } catch (error) {
      

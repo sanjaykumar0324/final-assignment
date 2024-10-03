@@ -1,0 +1,144 @@
+{
+  "category": [
+    {
+      "id": "cat1",
+      "categoryName": "Design"
+    },
+    {
+      "id": "cat2",
+      "categoryName": "Fashion"
+    },
+    {
+      "id": "cat3",
+      "categoryName": "Lifestyle"
+    }
+  ],
+  "blogs": {
+    "fashion": {
+      "title": "Fashion",
+      "image":"https://cdn.shopify.com/s/files/1/0726/1221/7115/files/img-icon-bl.png?v=1683620903",
+      "posts": [
+        {
+          "id": "1",
+          "image": "https://cdn.shopify.com/s/files/1/0726/1221/7115/articles/img-bl-4_720x.png?v=1683621391",
+          "author": "Sanjay",
+          "date": "29 sep 2024",
+          "title": "Here's why you should try mood",
+          "desc": "But they were not the only ones to lean into the high octane trend, with Moschino, Cersace and Jil Sander plumping for bold prints...",
+          "category": ["cat1", "cat2"]
+        },
+        {
+          "id": "2",
+          "image": "https://cdn.shopify.com/s/files/1/0726/1221/7115/articles/img-bl-3_720x.png?v=1683621366",
+          "author": "Sanjay",
+          "date": "29 sep 2024",
+          "title": "Your Guide to Fashion Forward Living",
+          "desc": "Cersace and Jil Sander plumping for bold prints, from colourful stripes to...",
+          "category": ["cat1", "cat2"]
+        },
+        {
+          "id": "3",
+          "image": "https://cdn.shopify.com/s/files/1/0726/1221/7115/articles/img-bl-2_720x.png?v=1683621336",
+          "author": "Sanjay",
+          "date": "29 sep 2024",
+          "title": "Where Style and Creativity Collide",
+          "desc": "Cersace and Jil Sander plumping for bold prints, from colourful stripes to...",
+          "category": ["cat1"]
+        },
+        {
+          "id": "4",
+          "image": "https://cdn.shopify.com/s/files/1/0726/1221/7115/articles/img-bl-1_720x.png?v=1683621301",
+          "author": "Sanjay",
+          "date": "29 sep 2024",
+          "title": "Unveiling the Latest Fashion Trends",
+          "desc": "Cersace and Jil Sander plumping for bold prints, from colourful stripes to...",
+          "category": ["cat1", "cat2"]
+        }
+      ]
+    },
+    "lifestyle": {
+      "title": "Lifestyle",
+      "image":"https://cdn.shopify.com/s/files/1/0726/1221/7115/files/img-icon-bl2.png?v=1683624622",
+
+      "posts": [
+        {
+          "id": "1",
+          "image": "https://cdn.shopify.com/s/files/1/0726/1221/7115/articles/img-bl-8_c9accd91-b5cc-4d1c-b7c5-27c324302426_720x.png?v=1683624775",
+          "author": "Sanjay",
+          "date": "29 sep 2024",
+          "title": "Embracing Mindfulness in a Busy World",
+          "desc": "We delve into the importance of incorporating mindfulness practices into our daily lives. Discover tips for finding inner peace, reducing stress, and cultivating...",
+          "category": ["cat3"]
+        },
+        {
+          "id": "2",
+          "image": "https://cdn.shopify.com/s/files/1/0726/1221/7115/articles/img-bl-6_720x.png?v=1683624505",
+          "author": "Sanjay",
+          "date": "29 sep 2024",
+          "title": "Travel Tales and Cultural Immersion",
+          "desc": "Join us on a journey around the globe as we explore different cultures and experiences...",
+          "category": ["cat1", "cat3"]
+        },
+        {
+          "id": "3",
+          "image": "https://cdn.shopify.com/s/files/1/0726/1221/7115/articles/img-bl-7_720x.png?v=1683624537",
+          "author": "Sanjay",
+          "date": "29 sep 2024",
+          "title": "Embracing Minimalism and Decluttering",
+          "desc": "In a world of constant consumerism, this blog invites you to simplify and find clarity in your life...",
+          "category": ["cat1", "cat3"]
+        },
+        {
+          "id": "4",
+          "image": "https://cdn.shopify.com/s/files/1/0726/1221/7115/articles/img-bl-5_720x.png?v=1683624796",
+          "author": "Sanjay",
+          "date": "29 sep 2024",
+          "title": "Exploring Healthy Habits and Holistic Wellness",
+          "desc": "Dive into a world of holistic wellness as we explore nourishing habits for body and mind...",
+          "category": ["cat3"]
+        }
+      ]
+    },
+    "spotlight": {
+      "title": "Spotlight",
+      "posts": [
+        {
+          "id": "1",
+          "image": "https://cdn.shopify.com/s/files/1/0726/1221/7115/articles/img-bl-12_1100x.png?v=1683625677",
+          "author": "Sanjay",
+          "date": "29 sep 2024",
+          "title": "Travel Tales and Cultural Immersion",
+          "desc": "Forget the tourist hotspots and explore the road less traveled as we uncover hidden gems around the world...",
+          "category": ["cat1", "cat3"]
+        },
+        {
+          "id": "2",
+          "image": "https://cdn.shopify.com/s/files/1/0726/1221/7115/articles/img-bl-11_720x.png?v=1683625649",
+          "author": "Sanjay",
+          "date": "29 sep 2024",
+          "title": "Celebrating Artistic Visionaries",
+          "desc": "In this blog, we turn our attention to the world of art and creativity, showcasing visionary artists...",
+          "category": ["cat1", "cat3"]
+        },
+        {
+          "id": "3",
+          "image": "https://cdn.shopify.com/s/files/1/0726/1221/7115/articles/img-bl-10_720x.png?v=1683625618",
+          "author": "Sanjay",
+          "date": "29 sep 2024",
+          "title": "Cutting-Edge Technologies and Ideas",
+          "desc": "Join us on a journey through the world of innovation as we highlight groundbreaking technologies...",
+          "category": ["cat1", "cat3"]
+        },
+        {
+          "id": "4",
+          "image": "https://cdn.shopify.com/s/files/1/0726/1221/7115/articles/img-bl-9_720x.png?v=1683625585",
+          "author": "Sanjay",
+          "date": "29 sep 2024",
+          "title": "Stories of Triumph and Resilience",
+          "desc": "We shine a spotlight on individuals who have overcome adversity and achieved remarkable success...",
+          "category": ["cat3"]
+        }
+      ]
+    }
+  }
+}

@@ -7,7 +7,7 @@ const FAQ: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   useEffect(() => {
-    fetch("/src/data/faqData.json")
+    fetch("/data/faqData.json")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
