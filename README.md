@@ -48,7 +48,7 @@ The application fetches data from local JSON files located in the public/data fo
 ## Using Mock API
 If you want to test with a mock API:
 
-1. Go to Mocki.io.
+1. Go to [MockAPI](https://mockapi.io)
 2. Paste your JSON data into the provided field and generate a link.
 3. Replace the existing links in src/redux/slices/categorySlice.js and src/redux/slices/blogSlice.js with your new Mock API URL.
 
