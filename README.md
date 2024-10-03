@@ -7,8 +7,10 @@ This application provides a help center and blog platform. It fetches FAQ data f
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
+- [Why This Approach](#why-this-approach)
 - [Local Data Fetching](#local-data-fetching)
 - [Using Mock API](#using-mock-api)
+- [Contact](#contact)
 
 
 ## Installation
@@ -28,6 +30,17 @@ This application provides a help center and blog platform. It fetches FAQ data f
 2. Blog categories and posts available for browsing.
 3. State management for blogs using Redux slices.
 4. Responsive design for optimal viewing across devices.
+5. Engaging animations for improved user experience.
+6. Progressive Web App (PWA) capabilities for offline access and a native app-like experience.
+
+
+## Approach for data handling
+
+1. **State Management**: Redux is used specifically for managing the state of blogs because this data is accessed across multiple pages and components. It ensures efficient state sharing and updates without unnecessary prop drilling. In contrast, the FAQ section does not require Redux, as it is only displayed in one place and can be easily managed with local state.
+
+2. **Rendering Additional Data**: Other components, such as the footer, help desk cards, and service cards, are rendered using arrays from local data files. This approach allows for easy updates and management of these elements, enhancing modularity and maintainability.
+
+
 
 ## Local Data Fetching
 The application fetches data from local JSON files located in the public/data folder. This approach is used to avoid issues with expiring mock API links.
