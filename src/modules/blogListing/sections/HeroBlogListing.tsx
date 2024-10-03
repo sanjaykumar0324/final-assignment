@@ -65,7 +65,7 @@ const HeroBlogListing: React.FC = () => {
             </div>
             <div className="flex flex-col h-[100%] justify-center gap-2">
               <p className="font-bold">Design</p>
-              <p className="">{BLOG_HERO_DESIGN}</p>
+              <p className="lg:text-2xl">{BLOG_HERO_DESIGN}</p>
               <p className="flex items-center gap-2 underline hover:text-red-300">
                 Read More <NAVIGATE_ARROW_ICON />
               </p>
