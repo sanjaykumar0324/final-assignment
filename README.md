@@ -41,7 +41,7 @@ Then navigate to http://localhost:5173 in browser to view the help center and bl
 ## Approach for data handling
 
 
-## Why I Chose Redux In Blog Section State Management
+### Why I Chose Redux In Blog Section State Management
 
 I selected **Redux** for managing the state of the blog section for several key reasons:
 
