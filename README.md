@@ -38,7 +38,7 @@ Then navigate to http://localhost:5173 in browser to view the help center and bl
 6. Progressive Web App (PWA) capabilities for offline access and a native app-like experience.
 7. Redirects to a "Not Found" page for any invalid navigation attempts.
 
-## Approach for data handling
+## Why This Approach
 
 
 ### Why I Chose Redux In Blog Section State Management
