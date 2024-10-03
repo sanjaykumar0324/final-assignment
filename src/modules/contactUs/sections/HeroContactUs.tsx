@@ -21,7 +21,7 @@ const HeroContactUs: React.FC = () => {
   };
   return (
     <div
-      className="h-[60vh] mb-40 max-lg:mb-[360px]"
+      className="h-[70vh] mb-40 max-lg:mb-[360px]"
       style={{
         backgroundImage: `url(${HELP_CENTER_BG_IMAGE})`,
         backgroundSize: "cover",
