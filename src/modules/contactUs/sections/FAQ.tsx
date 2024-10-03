@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { FAQ_type } from "../../../utils/type";
-import { FAQ_API_URL } from "../../../utils/constants";
 import FAQItem from "../components/FAQItem";
 
 const FAQ: React.FC = () => {
@@ -8,13 +7,19 @@ const FAQ: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   useEffect(() => {
-    const fetchFAQs = async () => {
-      const response = await fetch(FAQ_API_URL);
-      const data: FAQ_type[] = await response.json();
-      setFaqs(data);
-    };
-
-    fetchFAQs();
+    fetch("/data/faqData.json")
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        return response.json();
+      })
+      .then((data: FAQ_type[]) => {
+        setFaqs(data);
+      })
+      .catch((error) => {
+        console.error("Failed to fetch FAQs:", error);
+      });
   }, []);
 
   const toggleFAQ = (index: number) => {
@@ -23,7 +28,7 @@ const FAQ: React.FC = () => {
 
   return (
     <div className="bg-[#E0E0FF]">
-      <div className="mx-auto flex flex-col gap-10 p-4 py-24  md:py-32 lg:py-28 lg:px-48">
+      <div className="mx-auto flex flex-col gap-10 p-4 py-24 md:py-32 lg:py-28 lg:px-48">
         <h2
           className="text-2xl lg:text-4xl font-bold mb-4 text-center"
           data-aos="slide-up"
@@ -33,7 +38,7 @@ const FAQ: React.FC = () => {
           Popular Searched Questions
         </h2>
         <div
-          className="rounded-2xl border py-4  bg-[#FFFFFF]"
+          className="rounded-2xl border py-4 bg-[#FFFFFF]"
           data-aos="slide-up"
           data-aos-duration="500"
           data-aos-delay="100"

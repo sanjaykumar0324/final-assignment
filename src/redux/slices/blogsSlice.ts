@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import { Blog_type } from "../../utils/type";
 import axios from "axios";
-import { BLOG_API_URL } from "../../utils/constants";
+//import { BLOG_API_URL } from "../../utils/constants";
 
 
 interface BlogCategory {
@@ -29,13 +29,12 @@ export const getAllBlogs = createAsyncThunk(
   "blogSlice/getAllBlogs",
   async (_, { rejectWithValue }) => {
     try {
-      const res = await axios.get(BLOG_API_URL);
+              // const res=  await axios.get(BLOG_API_URL);
+
+      const res = await axios.get("/data/blog.json");
       return res.data.blogs;
     } catch (error) {
-      alert(
-        "Error fetching API. The API link may be expired. For details, please check the README file."
-      );
-      window.location.reload()
+     
       return rejectWithValue("Error fetching API");
     }
   }

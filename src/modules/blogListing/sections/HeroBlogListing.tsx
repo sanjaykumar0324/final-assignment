@@ -52,8 +52,8 @@ const HeroBlogListing: React.FC = () => {
         <div className="lg:col-span-1 flex flex-col gap-4 ">
           <div
             className="bg-[#BDE48A]   p-4 xl:px-10 max-md:h-[40vh]  md:h-[40vh] lg:h-[30vh]   rounded-xl"
-            data-aos="fade-down-left"
-            data-aos-duration="300"
+            data-aos="fade-left"
+            data-aos-duration="400"
             data-aos-delay="100"
 
             data-aos-easing="linear"
@@ -65,7 +65,7 @@ const HeroBlogListing: React.FC = () => {
             </div>
             <div className="flex flex-col h-[100%] justify-center gap-2">
               <p className="font-bold">Design</p>
-              <p>{BLOG_HERO_DESIGN}</p>
+              <p className="">{BLOG_HERO_DESIGN}</p>
               <p className="flex items-center gap-2 underline hover:text-red-300">
                 Read More <NAVIGATE_ARROW_ICON />
               </p>
@@ -74,8 +74,9 @@ const HeroBlogListing: React.FC = () => {
           <div
             className="h-[40vh] relative lg:h-[58vh] bg-red-300 rounded-2xl "
             data-aos="fade-up-left"
-            data-aos-duration="300"
+            data-aos-duration="500"
             data-aos-easing="linear"
+            data-aos-delay="300"
           >
             <div
               className="absolute inset-0 bg-cover bg-center rounded-2xl"
